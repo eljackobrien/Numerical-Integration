@@ -3,6 +3,7 @@ Some functions for numerical integration
 
 Functions implemented are the simple Euler method, the Heun[3] (modified Euler) method,
 Adams-Bashforth[1] 3rd through 5th order methods and two 4th order Runge-Kutta[2] methods.
+These are all explicit methods.
 
 Tested by integrating dy/dx = y (which is the exponential function y = e^x)
 
